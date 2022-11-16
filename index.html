@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+  <!-- Local Stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- js script -->
+  <script script type="text/javascript" src="script.js"></script>
+  <title>Jon's Front End Playground</title>
+</head>
+
+  <body>
+  <header>
+    <form name="register_complaint" id="register_complaint_frm" action="#">
+      <table cellspacing="4">
+        <tr>
+          <td><label for="name">Full Name: </label></td>
+          <td><input type="text" size="30" maxlength="155" name="name"></td>
+        </tr>
+          <td colspan="2"><input type="button" name="submit" value="Submit Complaint" onclick="showFormData(this.form);">
+          </td>
+      </table>
+    </form>
+  </header>
+  <nav class="menu">
+    <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+    <label class="menu-open-button" for="menu-open">
+      <i class="fa-regular fa-user"></i>
+    </label>
+
+    <a href="#" class="menu-item blue"> <i id="firstIcon" class="fa-solid fa-user"></i>
+    <a href="#" class="menu-item green"> <i id="secondIcon" class="fa-solid fa-coffee"></i> </a>
+    <a href="#" class="menu-item red"> <i class="fa fa-heart"></i> </a>
+    <a href="#" class="menu-item purple"> <i class="fa fa-microphone"></i> </a>
+    <a href="#" class="menu-item orange"> <i class="fa fa-star"></i> </a>
+    <a href="#" class="menu-item lightblue"> <i class="fa fa-diamond"></i> </a>
+  </nav>
+
+  <table>
+    <tr>
+      <td class="rowHeader">
+        Top Icon:
+      </td>
+      <td class="firstReturn" id="firstReturn">
+        
+      </td>
+      <td>
+        <a href="#">
+          <i class="fa-solid fa-user"></i>
+        </a>
+      </td>
+      </tr>
+  </table>
+  <!-- <div class="firstReturn" id="firstReturn">
+1
+  </div>
+ 
+  <div class="secondReturn" id="secondReturn">
+2
+  </div>
+  <div class="thirdReturn" id="thirdReturn">
+3
+  </div>
+
+  <div class="fourthReturn" id="thirdReturn">
+    4
+  </div>
+
+  <div class="fifthReturn" id="thirdReturn">
+    5
+  </div>
+
+  <div class="sixthReturn" id="thirdReturn">
+   6 
+  </div>
+ 
+  <div class="seventhReturn" id="thirdReturn">
+    7
+  </div> -->
+
+</body>
+
+</html>
